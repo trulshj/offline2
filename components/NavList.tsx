@@ -13,9 +13,9 @@ export default function NavList() {
   const [showMenu, setShowMenu] = useState(false);
 
   const buttons: buttonType[] = [
-    { href: "/", text: "Home" },
-    { href: "/about", text: "About" },
-    { href: "/zine", text: "Zine" },
+    { href: "/", text: "HOME" },
+    { href: "/about", text: "ABOUT" },
+    { href: "/zine", text: "ZINE" },
   ];
 
   return (

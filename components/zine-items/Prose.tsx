@@ -2,7 +2,6 @@ import styles from "../../styles/Prose.module.css";
 import utility from "../../styles/Utility.module.css";
 
 import { ProseType } from "../../lib/prose";
-import ArtItem from "./Art";
 import Author from "../Author";
 
 import { useEffect, useRef } from "react";
@@ -20,15 +19,13 @@ export default function ProseItem({ prose }: ProseItemProps) {
 
   return (
     <div
-      className={
-        styles.container + " " + utility.border + " " + utility.borderThickTop
-      }
+      className={styles.container + " " + utility.borderThickTop}
       ref={ficContainer}
     >
       <div className={styles.proseTitle}>
         <h2>{prose.title}</h2>
         <div>
-          <Author author={prose.author} ship={prose.ship} />
+          <Author author={prose.author} />
         </div>
       </div>
       <div className={styles.prose}>

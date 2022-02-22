@@ -4,15 +4,16 @@ import NumberButton from "../components/NumberButton";
 import { buttonType } from "../components/NavList";
 
 import styles from "../styles/about_pages/About.module.css";
+import utility from "../styles/Utility.module.css";
 
 const About: NextPage = () => {
   const buttons: buttonType[] = [
     { href: "/about/faq", text: "FAQ" },
-    { href: "/about/mods", text: "Mods" },
-    { href: "/about/contributors", text: "Contributors" },
+    { href: "/about/mods", text: "MODS" },
+    { href: "/about/contributors", text: "CONTRIBUTORS" },
   ];
   return (
-    <div className={styles.container}>
+    <div className={styles.container + " " + utility.borderThickTop}>
       <h2>About</h2>
       <p>
         For all Adam lovers, an upcoming website featuring art, prose, and

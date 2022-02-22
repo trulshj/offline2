@@ -34,7 +34,7 @@ const FicsOnly: NextPage = () => {
             tabIndex={0}
           >
             <strong>&quot;{(item.content as ProseType).title}&quot;</strong> by{" "}
-            {item.content.author.name} <span>- {item.content.ship}</span>
+            {item.content.author.name}
           </a>
         ) : null
       )}

@@ -4,14 +4,14 @@ import styles from "../styles/Author.module.css";
 import utility from "../styles/Utility.module.css";
 interface AuthorProps {
   author: AuthorType;
-  ship?: string;
-  collabArt?: boolean;
+  border?: boolean;
 }
 
-export default function Author({ author, ship }: AuthorProps) {
+export default function Author({ author, border }: AuthorProps) {
   return (
-    <div className={styles.container + " " + utility.border}>
+    <div className={styles.container + " " + (border ? utility.border : "")}>
       <div className={styles.socials}>
+        <h4>By: {author.name}</h4>
         {!author.twitter ? null : (
           <a href={author.twitter} target="_blank" rel="noreferrer">
             <h4>Twitter</h4>
@@ -33,7 +33,6 @@ export default function Author({ author, ship }: AuthorProps) {
           </a>
         )}
       </div>
-      {ship ? <h4>Ship: {ship}</h4> : null}
     </div>
   );
 }

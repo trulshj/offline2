@@ -42,121 +42,101 @@ export const artList: ArtType[] = [
   {
     id: 0,
     author: lillachan,
-    ship: "Adam/Everyone",
     image: frontCover,
   },
   {
     id: 1,
     author: bad, // collab
-    ship: "Adam/Joe",
     image: badCollab,
   },
   {
     id: 2,
     author: ludoscope,
-    ship: "Adam/Joe/Cherry",
     image: luDoscopeArt,
   },
   {
     id: 3,
     author: kamedori, // collab
-    ship: "Adam/Shadow",
     image: kamedoriCollab,
   },
   {
     id: 4,
     author: kamedori,
-    ship: "Adam/Joe",
     image: kameDoriSpread,
   },
   {
     id: 5,
     author: kamedori,
-    ship: "Adam/Joe",
     image: kameDoriSpread,
   },
   {
     id: 6,
     author: tyulezhik, // collab
-    ship: "Adam/Tadashi",
     image: emailFic,
   },
   {
     id: 7,
     author: grandTaco,
-    ship: "Adam/Joe/Cherry",
     image: grandtacoArt,
   },
   {
     id: 8,
     author: miragePrince,
-    ship: "Adam/Langa/Tadashi",
     image: mirageprinceCollab,
   },
   {
     id: 9,
     author: tyulezhik,
-    ship: "Adam/Tadashi",
     image: tyulezhikArt,
   },
   {
     id: 10,
     author: burns, // collab
-    ship: "Adam/Reki",
     image: burnsCollab,
   },
   {
     id: 11,
     author: burns,
-    ship: "Adam/Reki",
     image: burnsArt,
   },
   {
     id: 12,
     author: bad,
-    ship: "Adam/Langa/Tadashi",
     image: badArt,
   },
   {
     id: 13,
     author: crumbs,
-    ship: "Adam/Cherry",
     image: crumbsArt,
   },
   {
     id: 14,
     author: elianthos,
-    ship: "Adam/Tadashi",
     image: elianthosArt,
   },
   {
     id: 15,
     author: elianthos, // collab
-    ship: "Adam/Tadashi",
     image: elianthoscollab,
   },
   {
     id: 16,
     author: krynnea,
-    ship: "Adam/Langa",
     image: krynnea1,
   },
   {
     id: 17,
     author: krynnea,
-    ship: "Adam/Miya",
     image: krynnea2,
   },
   {
     id: 18,
     author: ludoscope, // collab
-    ship: "Adam/Cherry",
     image: lizardCollab,
   },
   {
     id: 19,
     author: lillachan,
-    ship: "Adam Only",
     image: backCover,
   },
 ];

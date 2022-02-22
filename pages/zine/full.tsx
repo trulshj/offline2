@@ -20,10 +20,7 @@ const FullZine: NextPage = () => {
     <div className={styles.container}>
       {zineList[itemIndex].type == ZineItemType.Art ? (
         <>
-          <Author
-            author={zineList[itemIndex].content.author}
-            ship={zineList[itemIndex].content.ship}
-          />
+          <Author author={zineList[itemIndex].content.author} border={true} />
           <ArtItem art={zineList[itemIndex].content as ArtType} />
         </>
       ) : (

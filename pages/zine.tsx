@@ -8,16 +8,12 @@ import utility from "../styles/Utility.module.css";
 
 const ZineNav: NextPage = () => {
   const buttons: buttonType[] = [
-    { href: "/zine/full", text: "Full Zine", color: "white" },
-    { href: "/zine/art", text: "Art Only", color: "white" },
-    { href: "/zine/fics", text: "Writing Only", color: "white" },
+    { href: "/zine/full", text: "FULL ZINE", color: "white" },
+    { href: "/zine/art", text: "ART ONLY", color: "white" },
+    { href: "/zine/fics", text: "WRITING ONLY", color: "white" },
   ];
   return (
-    <div
-      className={
-        styles.container + " " + utility.border + " " + utility.borderThickTop
-      }
-    >
+    <div className={styles.container + " " + utility.borderThickTop}>
       <h2>How do you want to view the zine?</h2>
       <div className={styles.buttonContainer}>
         {buttons.map((button, idx) => (

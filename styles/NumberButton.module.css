@@ -10,5 +10,6 @@
 
 .container:hover,
 .container:focus-visible {
-  background-color: var(--bg-color-dark);
+  text-shadow: 0px 0px 20px #d6f8b8, 0px 0px 10px #d6f8b8,
+    0px 0px 20px rgba(214, 248, 184, 0.5), 0px 0px 20px rgba(214, 248, 184, 0.5);
 }

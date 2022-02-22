@@ -1,10 +1,11 @@
 import ModProfile, { mods } from "../../components/ModProfile";
 import styles from "../../styles/about_pages/Mods.module.css";
+import utility from "../../styles/Utility.module.css";
 
 export default function Mods() {
   console.log(mods);
   return (
-    <div className={styles.container}>
+    <div className={styles.container + " " + utility.borderThickTop}>
       <h1>Mods</h1>
       {mods.map((mod, idx) => (
         <div key={idx}>

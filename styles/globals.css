@@ -1,0 +1,80 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(
+      to right,
+      var(--border-color) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, var(--border-color) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: -2px -2px;
+  height: 100%;
+}
+
+:root {
+  --primary: var(--light-green);
+  --secondary: var(--dark-green);
+  --accent: var(--purple);
+
+  --mobile-width: 600px;
+  --bg-color-dark: var(--dark-green);
+  --bg-color: #000;
+  --text-bright: #d6f8b8;
+  --text-color: #b8b7f4;
+  --border-color: #4d4c7d;
+
+  --light-green: #d6f8b8;
+  --dark-green: #8fbbaf;
+  --purple: #827397;
+  --light-blue: #6b7b8e;
+  --dark-blue: #363062;
+
+  --atkinson-font: "Atkinson Hyperlegible", sans-serif;
+  --averia-sans-font: "Averia Sans Libre", cursive;
+  --open-sans-font: "Open Sans", sans-serif;
+  --inter-font: "Inter", sans-serif;
+
+  --raleway-font: "Raleway", sans-serif;
+  --orbitron-font: "Orbitron", sans-serif;
+}
+
+h1 {
+  font-family: var(--orbitron-font);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--raleway-font);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+#__next {
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  :root {
+    font-size: 0.85rem;
+  }
+}

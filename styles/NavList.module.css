@@ -1,0 +1,72 @@
+.navList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 3rem;
+  transition: all 400ms ease-in-out;
+
+  flex: 1;
+}
+
+.menuButton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: none;
+  background-color: var(--primary);
+  color: var(--text-color);
+}
+
+.menuButton:hover,
+.menuButton:focus-visible {
+  background-color: var(--accent);
+}
+
+@media (max-width: 800px) {
+  .navList > a {
+    transition: all 400ms ease-in-out;
+    height: 50px;
+  }
+
+  .activeMenu {
+    transform: translateY(0);
+    height: 391px;
+  }
+
+  .inactiveMenu {
+    transform: translateY(-500px);
+    height: 0px;
+  }
+
+  .inactiveMenu > a {
+    height: 0;
+  }
+
+  .navList {
+    width: min-content;
+    margin: auto;
+    gap: 1rem;
+  }
+
+  .menuButton {
+    display: inline;
+    transition: all 400ms ease-in-out;
+    width: min-content;
+  }
+
+  .activeButton {
+    position: relative;
+    bottom: 0;
+  }
+
+  .inactiveButton {
+    position: absolute;
+    bottom: -500px;
+  }
+}

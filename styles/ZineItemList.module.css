@@ -1,0 +1,31 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+.listContainer > h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.listItem {
+  transition: all 100ms ease;
+}
+
+.listItem:hover,
+.listItem:focus-visible {
+  color: var(--text-bright);
+}
+
+.listItem > span {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+@media (max-width: 800px) {
+}

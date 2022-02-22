@@ -1,0 +1,14 @@
+.ficContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  max-height: 90vh;
+}
+
+.ficContainer > a {
+  padding: 1rem;
+}

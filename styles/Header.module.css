@@ -1,0 +1,22 @@
+.header {
+  font-size: 2rem;
+  width: 100%;
+  padding: 1rem 0;
+  display: grid;
+}
+
+.logoContainer {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 1rem 0;
+    z-index: 1;
+  }
+
+  .logoContainer {
+    width: 90%;
+    margin: auto;
+  }
+}

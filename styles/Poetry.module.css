@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+  max-height: 100%;
+  justify-content: space-between;
+  overflow-y: scroll;
+  height: 1px;
+  min-height: calc(100% - 4rem);
+  width: 100%;
+}
+
+.poetryTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.poetryTitle > * {
+  margin: 0;
+}
+
+.poem {
+  font-size: 1.1rem;
+  flex: 1;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .container {
+    gap: 1rem;
+  }
+}

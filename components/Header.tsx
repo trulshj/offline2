@@ -18,7 +18,11 @@ const Header = () => {
           (asPath.includes("zine") ? styles.smallerHeader : null)
         }
       >
-        <Image src={titleLogo} layout="responsive" alt="Adam in Love"></Image>
+        <Image
+          src={titleLogo}
+          layout="responsive"
+          alt="OFFLINE MIYA ZINE LOGO"
+        ></Image>
       </div>
     </header>
   );

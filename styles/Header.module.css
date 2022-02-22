@@ -18,5 +18,10 @@
   .logoContainer {
     width: 70%;
     margin: auto;
+    transition: width 400ms ease-in-out;
+  }
+
+  .smallerHeader {
+    width: 50%;
   }
 }

@@ -22,9 +22,10 @@
 @media (max-width: 800px) {
   .buttonContainer > button {
     font-size: 2em;
+    line-height: 1.1rem;
   }
 
   .buttonContainer {
-    margin-top: 1rem;
+    margin-top: 0.8rem;
   }
 }

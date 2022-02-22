@@ -1,27 +1,31 @@
+import { artList } from "../lib/art";
 import { AuthorType } from "../lib/authors";
+import { proseList } from "../lib/prose";
 import styles from "../styles/about_pages/ContributorItem.module.css";
 
 interface Contributor {
   author: AuthorType;
-  introduction: string;
   position: string;
 }
 
-export const contributors: Contributor[] = [
-  /*
-  {
-    author: ,
-    introduction: "",
-    position: "",
-  },
-  */
-];
+export const contributors: Contributor[] = artList
+  .map((x) => {
+    return { author: x.author, position: "Artist" };
+  })
+  .concat(
+    proseList.map((x) => {
+      return { author: x.author, position: "Writer" };
+    })
+  )
+  .sort(() => Math.random() - 0.5)
+  .concat([
+    {
+      author: { name: "T", github: "https://github.com/trulshj" },
+      position: "Web Developer",
+    },
+  ]);
 
-export default function ContributorItem({
-  author,
-  position,
-  introduction,
-}: Contributor) {
+export default function ContributorItem({ author, position }: Contributor) {
   return (
     <div className={styles.container}>
       <h3>
@@ -67,7 +71,6 @@ export default function ContributorItem({
           </>
         )}
       </h3>
-      <p>{introduction}</p>
     </div>
   );
 }

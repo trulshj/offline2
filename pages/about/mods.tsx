@@ -9,20 +9,22 @@ export default function Mods() {
       <h1>Mods</h1>
       {mods.map((mod, idx) => (
         <div key={idx}>
-          <ModProfile
-            name={mod.name}
-            pronouns={mod.pronouns}
-            age={mod.age}
-            username={mod.username}
-            url={mod.url}
-          />
+          <ModProfile username={mod.username} url={mod.url} />
           <span>{mod.role}</span>
-          <h4>Experience:</h4>
-          <ul>
-            {mod.experience.map((exp, idx) => (
-              <li key={idx} dangerouslySetInnerHTML={{ __html: exp }}></li>
-            ))}
-          </ul>
+          {mod.experience.length ? (
+            <>
+              <h4>Experience:</h4>
+              <ul>
+                {mod.experience.map((exp, idx) => (
+                  <li
+                    key={idx}
+                    className={styles.experienceText}
+                    dangerouslySetInnerHTML={{ __html: exp }}
+                  ></li>
+                ))}
+              </ul>
+            </>
+          ) : null}
         </div>
       ))}
     </div>

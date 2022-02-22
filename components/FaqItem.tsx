@@ -7,28 +7,39 @@ interface FaqItemProps {
 
 export const faqs: FaqItemProps[] = [
   {
-    question: "Will this zine be digital or physical?",
+    question: "What is a zine?",
     answer:
-      "This zine will be presented as a collection of digital works on a permanent website, currently scheduled for publication in February 2022.",
+      "A fanzine, or zine for short, is a term used to describe an unofficial, fanmade publication, which can be both digital or physical. Zines often contain a mix of artworks, writing, and merchandise for a specific fandom.",
+  },
+  {
+    question: "What is the theme of the zine?",
+    answer:
+      "This fanzine will be focusing on Chinen Miya, a character from the show Sk8 the Infinity, living his life when he’s not skating.",
+  },
+  {
+    question: "Will minors be allowed to contribute?",
+    answer:
+      "Since this is a completely SFW zine, minors above the age of 13 will be allowed to contribute.",
+  },
+  {
+    question: "Will this zine be digital or physical?",
+    answer: "This zine is digital-only.",
+  },
+  {
+    question: "Will this be for-profit, for-charity, or free?",
+    answer:
+      "This zine will be able to be viewed for free on a website and will also offer consumers an option for a PDF download. How many contributors will this zine have? This will depend on the Interest Check results.",
   },
   {
     question: "How will contributors be compensated?",
-    answer: `The website will be completely free to view online, so no physical or monetary compensation is involved.<br/>
-    However, contributors will receive an exclusive digital PDF copy of the zine at the end of the project. If they wish to produce physical copies of the zine themselves, the mod team will send printer-friendly versions alongside the digital PDF.`,
-  },
-  {
-    question: "How old do you have to be to join as a contributor?",
-    answer: "Contributors must be 18+ by the end of the application period.",
-  },
-  {
-    question: "What ships will be allowed?",
     answer:
-      "Any and all Adam ships are allowed as long as characters are appropriately aged up/down (minor x minor, adult x adult) and portrayed in a SFW way. As this project welcomes pre-canon, canon, post-canon and temporal AU ship dynamics, you can age up/down any character (e.g. teen Reki x teen Adam.)",
+      "Since this is a non-profit digital-only zine, there will be no monetary compensation involved. However, the zine’s PDF and all digital merchandise will be sent to all contributors via email.",
   },
   {
-    question: "Will there be solo Adam conent?",
-    answer: `The webzine will consist of ship content only to feature as many Adam ships as possible, focusing on romantic love and other types of love.<br/>
-            However, if you are interested in more gen content for Adam, our team is also organizing <a href='https://www.adamflourishzine.com/' target='_blank' rel='noreferrer'>Flourish</a>, an upcoming post-canon Adam zine for charity! You can follow our Twitter for the latest updates <a href='https://twitter.com/adamsk8flourish' target='_blank' rel='noreferrer'>here</a>!`,
+    question:
+      "Am I allowed to post, print, and/or sell my work once the project ends?",
+    answer:
+      "Contributors will have all the rights to their works and may do as they please with them once the project ends.",
   },
 ];
 

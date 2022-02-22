@@ -17,12 +17,16 @@
 }
 
 .container li {
-  list-style-type: "❥";
+  list-style-type: "👉";
   padding-left: 0.5rem;
 }
 
 .container li::marker {
   color: var(--text-bright);
+}
+
+.experienceText > a {
+  text-decoration: underline;
 }
 
 @media (max-width: 800px) {

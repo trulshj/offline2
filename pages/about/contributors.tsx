@@ -10,12 +10,7 @@ export default function Contributors() {
       <h1>Contributors</h1>
       <div>
         {contributors.map((c, idx) => (
-          <ContributorItem
-            key={idx}
-            author={c.author}
-            introduction={c.introduction}
-            position={c.position}
-          />
+          <ContributorItem key={idx} author={c.author} position={c.position} />
         ))}
       </div>
     </div>

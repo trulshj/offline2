@@ -1,7 +1,6 @@
+import utility from "../styles/Utility.module.css";
+
 interface ModProfileProps {
-  name: string;
-  pronouns: string;
-  age: number;
   username: string;
   url: string;
   role: string;
@@ -10,12 +9,17 @@ interface ModProfileProps {
 
 export const mods: ModProfileProps[] = [
   {
-    name: "tulip",
-    pronouns: "he/him",
-    age: 21,
+    username: "Ru",
+    url: "",
+    role: "Organization, Socials, and Communication Mod",
+    experience: [
+      "<a href='https://vntx.carrd.co/#z' target='_blank' rel='noreferrer'>Carrd Portfolio with more info</a>",
+    ],
+  },
+  {
     username: "fishnobi",
     url: "https://twitter.com/fishnobi",
-    role: "Writing, Art, Formatting and Web Dev Mod",
+    role: "Graphics, Art, Web Design Mod",
     experience: [
       "Formatting Mod for <a href='https://twitter.com/sk8TTSzine' target='_blank' rel='noreferrer'>Sk8 Through the Seasons zine</a>",
       "General, Art & Formatting Mod for <a href='https://twitter.com/sk8auzine' target='_blank' rel='noreferrer'>Sk8 AU zine</a>",
@@ -24,53 +28,43 @@ export const mods: ModProfileProps[] = [
     ],
   },
   {
-    name: "vince",
-    pronouns: "she/her",
-    age: 21,
-    username: "vestaaqui",
-    url: "https://twitter.com/vestaaqui",
-    role: "Organization, Communications and Social Media Mod",
+    username: "Addie",
+    url: "https://twitter.com/qdverti",
+    role: "Organization Mod, Beta Reader",
     experience: [
-      "Organization, Merch & Finance Mod for <a href='https://twitter.com/sk8TTSzine' target='_blank' rel='noreferrer'>Sk8 Through the Seasons zine</a>",
-      "Organization & Finance Mod for <a href='https://twitter.com/sk8auzine' target='_blank' rel='noreferrer'>ShinDeku Unbroken Bonds zine</a>",
-      "Finance Mod for <a href='https://twitter.com/miyusawazine' target='_blank' rel='noreferrer'>MiyuaSawa Battery zine</a> [leftover sales]",
+      "<a href='https://theinnerdarknesss.carrd.co/' target='_blank' rel='noreferrer'>Carrd Portfolio with more info</a>",
     ],
   },
   {
-    name: "rayfelle",
-    pronouns: "she/her",
-    age: 27,
-    username: "rayfelle_exe",
-    url: "https://twitter.com/rayfelle_exe",
-    role: "Graphics Mod",
-    experience: ["5+ years of professional graphic design"],
+    username: "Vlatypus",
+    url: "https://mobile.twitter.com/backpedaled_",
+    role: "Social Media Mod",
+    experience: [
+      //"<a href='' target='_blank' rel='noreferrer'></a>"
+    ],
   },
   {
-    name: "unrivalling",
-    pronouns: "they/them",
-    age: 28,
-    username: "unrivalling",
-    url: "https://twitter.com/unrivalling",
-    role: "Writing Mod (Prose & Poetry)",
+    username: "Elliot",
+    url: "https://mobile.twitter.com/einsamax",
+    role: "Intern",
     experience: [
-      "Writer Mod for <a href='https://twitter.com/FodlanFrontier' target='_blank' rel='noreferrer'>FE3H Fodlan Frontier zine</a>",
-      "Head and Writer Mod for <a href='https://twitter.com/Lorenz_Zine' target='_blank' rel='noreferrer'>FE3H Rose of Gloucester zine</a> [nsfw]",
-      "Writer Mod/Contributor for multiple other zines",
+      //"<a href='' target='_blank' rel='noreferrer'></a>"
     ],
   },
 ];
 
 export default function ModProfile({
-  name,
-  pronouns,
-  age,
   username,
   url,
 }: Partial<ModProfileProps>) {
   return (
     <h3>
-      {name?.toUpperCase()} | {pronouns?.toUpperCase()} | {age} |{" "}
-      <a href={url} target="_blank" rel="noreferrer">
+      <a
+        href={url}
+        target="_blank"
+        rel="noreferrer"
+        className={utility.textShadow}
+      >
         @{username?.toUpperCase()}
       </a>
     </h3>

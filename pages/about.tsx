@@ -15,10 +15,7 @@ const About: NextPage = () => {
   return (
     <div className={styles.container + " " + utility.borderThickTop}>
       <h2>About</h2>
-      <p>
-        For all Adam lovers, an upcoming website featuring art, prose, and
-        poetry of Adam/Shindo Ainosuke in love and being loved.
-      </p>
+      <p>All the Miya content, all in one place</p>
       <div className={styles.buttonContainer}>
         {buttons.map((button, idx) => (
           <Link key={idx} href={button.href}>

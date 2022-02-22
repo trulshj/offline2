@@ -1,5 +1,5 @@
 import styles from "../../styles/Prose.module.css";
-import EmailFic from "../../components/EmailFic";
+import utility from "../../styles/Utility.module.css";
 
 import { ProseType } from "../../lib/prose";
 import ArtItem from "./Art";
@@ -19,7 +19,12 @@ export default function ProseItem({ prose }: ProseItemProps) {
   });
 
   return (
-    <div className={styles.container} ref={ficContainer}>
+    <div
+      className={
+        styles.container + " " + utility.border + " " + utility.borderThickTop
+      }
+      ref={ficContainer}
+    >
       <div className={styles.proseTitle}>
         <h2>{prose.title}</h2>
         <div>
@@ -27,26 +32,15 @@ export default function ProseItem({ prose }: ProseItemProps) {
         </div>
       </div>
       <div className={styles.prose}>
-        {!prose.email ? (
-          prose.paragraphs?.map((paragraph, idx) => (
-            <p
-              className={
-                paragraph.trim().length == 1 ? styles.centered : undefined
-              }
-              key={idx}
-              dangerouslySetInnerHTML={{ __html: paragraph.trim() }}
-            ></p>
-          ))
-        ) : (
-          <EmailFic />
-        )}
-        {console.log(prose.paragraphs)}
-        {!prose.collabArt ? null : (
-          <div className={styles.collabArt}>
-            <ArtItem art={prose.collabArt} />
-            <Author author={prose.collabArt.author} collabArt={true} />
-          </div>
-        )}
+        {prose.paragraphs?.map((paragraph, idx) => (
+          <p
+            className={
+              paragraph.trim().length == 1 ? styles.centered : undefined
+            }
+            key={idx}
+            dangerouslySetInnerHTML={{ __html: paragraph.trim() }}
+          ></p>
+        ))}
       </div>
     </div>
   );

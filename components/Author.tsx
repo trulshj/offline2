@@ -1,20 +1,17 @@
 import { AuthorType } from "../lib/authors";
 
 import styles from "../styles/Author.module.css";
-
+import utility from "../styles/Utility.module.css";
 interface AuthorProps {
   author: AuthorType;
   ship?: string;
   collabArt?: boolean;
 }
 
-export default function Author({ author, ship, collabArt }: AuthorProps) {
+export default function Author({ author, ship }: AuthorProps) {
   return (
-    <div className={styles.container + collabArt ? styles.collab : ""}>
+    <div className={styles.container + " " + utility.border}>
       <div className={styles.socials}>
-        <h4>
-          {collabArt ? "Art by:" : "By:"} {author.name}
-        </h4>
         {!author.twitter ? null : (
           <a href={author.twitter} target="_blank" rel="noreferrer">
             <h4>Twitter</h4>

@@ -1,4 +1,5 @@
 import styles from "../styles/CycleButtons.module.css";
+import utility from "../styles/Utility.module.css";
 
 interface CycleButtonProps {
   itemsLength: number;
@@ -28,7 +29,7 @@ export default function CycleButtons({
   };
 
   return (
-    <div className={styles.buttonContainer}>
+    <div className={styles.buttonContainer + " " + utility.border}>
       <button onClick={decrement}>&lt;</button>
       <button onClick={increment}>&gt;</button>
     </div>

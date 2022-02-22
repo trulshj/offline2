@@ -35,7 +35,6 @@ import {
 export interface ArtType {
   id: number;
   author: AuthorType;
-  ship: string;
   image: StaticImageData;
 }
 

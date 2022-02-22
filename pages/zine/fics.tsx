@@ -6,9 +6,7 @@ import listStyles from "../../styles/ZineItemList.module.css";
 
 import { ZineItemType, zineList } from "../../lib/zine";
 import { ProseType } from "../../lib/prose";
-import { PoetryType } from "../../lib/poetry";
 import ProseItem from "../../components/zine-items/Prose";
-import PoemItem from "../../components/zine-items/Poem";
 
 const FicsOnly: NextPage = () => {
   const [showingItem, setShowingItem] = useState(false);
@@ -28,17 +26,7 @@ const FicsOnly: NextPage = () => {
     <div className={listStyles.listContainer}>
       <h2>Fics:</h2>
       {zineList.map((item, idx) =>
-        item.type == ZineItemType.Poetry ? (
-          <a
-            key={idx}
-            className={listStyles.listItem}
-            onClick={() => showItem(idx)}
-            tabIndex={0}
-          >
-            <strong>&quot;{(item.content as PoetryType).title}&quot;</strong> by{" "}
-            {item.content.author.name} <span>- {item.content.ship}</span>
-          </a>
-        ) : item.type == ZineItemType.Prose ? (
+        item.type == ZineItemType.Prose ? (
           <a
             key={idx}
             className={listStyles.listItem}
@@ -53,11 +41,7 @@ const FicsOnly: NextPage = () => {
     </div>
   ) : (
     <div className={styles.ficContainer}>
-      {zineList[itemIndex].type == ZineItemType.Prose ? (
-        <ProseItem prose={zineList[itemIndex].content as ProseType} />
-      ) : (
-        <PoemItem poem={zineList[itemIndex].content as PoetryType} />
-      )}
+      <ProseItem prose={zineList[itemIndex].content as ProseType} />
       <a className={listStyles.listItem} onClick={() => hideItem()}>
         &lt; Back to list
       </a>

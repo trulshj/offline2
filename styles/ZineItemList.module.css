@@ -11,15 +11,18 @@
 
 .listContainer > h2 {
   margin: 0 0 0.5rem 0;
+  font-family: var(--orbitron-font);
 }
 
 .listItem {
   transition: all 100ms ease;
+  color: var(--text-bright);
 }
 
 .listItem:hover,
 .listItem:focus-visible {
-  color: var(--text-bright);
+  text-shadow: 0px 0px 20px #d6f8b8, 0px 0px 10px #d6f8b8,
+    0px 0px 20px rgba(214, 248, 184, 0.5), 0px 0px 20px rgba(214, 248, 184, 0.5);
 }
 
 .listItem > span {

@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 
 import styles from "../../styles/ArtOnly.module.css";
 import listStyles from "../../styles/ZineItemList.module.css";
+import utility from "../../styles/Utility.module.css";
 
 import { ArtType } from "../../lib/art";
 import { ZineItemType, zineList } from "../../lib/zine";
@@ -24,7 +25,7 @@ const ArtOnly: NextPage = () => {
   };
 
   return !showingItem ? (
-    <div className={listStyles.listContainer}>
+    <div className={listStyles.listContainer + " " + utility.borderThickTop}>
       <h2>Art:</h2>
       {zineList.map((item, idx) =>
         !(item.type == ZineItemType.Art) ? null : (
@@ -34,22 +35,19 @@ const ArtOnly: NextPage = () => {
             onClick={() => showItem(idx)}
             tabIndex={0}
           >
-            {item.content.author.name}{" "}
-            {item.content.ship != "" ? (
-              <span>- {item.content.ship}</span>
-            ) : null}
+            {item.content.author.name}
           </a>
         )
       )}
     </div>
   ) : (
     <div className={styles.artContainer}>
-      <Author
-        author={zineList[itemIndex].content.author}
-        ship={zineList[itemIndex].content.ship}
-      />
+      <Author author={zineList[itemIndex].content.author} />
       <ArtItem art={zineList[itemIndex].content as ArtType} />
-      <a className={listStyles.listItem} onClick={() => hideItem()}>
+      <a
+        className={listStyles.listItem + " " + utility.border}
+        onClick={() => hideItem()}
+      >
         &lt; Back to list
       </a>
     </div>

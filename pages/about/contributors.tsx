@@ -15,7 +15,6 @@ export default function Contributors() {
             author={c.author}
             introduction={c.introduction}
             position={c.position}
-            icon={c.icon}
           />
         ))}
       </div>

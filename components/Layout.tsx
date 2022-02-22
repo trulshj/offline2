@@ -23,15 +23,6 @@ export default function Layout({ children }: ILayoutProps) {
       </div>
 
       {false ? <Footer /> : null}
-
-      <div className={styles.chibi}>
-        <Image
-          src={ainosuke}
-          alt="Chibi Ainosuke-sama"
-          width={300}
-          height={300}
-        />
-      </div>
     </div>
   );
 }

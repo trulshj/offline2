@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 
 import styles from "../../styles/FicsOnly.module.css";
 import listStyles from "../../styles/ZineItemList.module.css";
+import utility from "../../styles/Utility.module.css";
 
 import { ZineItemType, zineList } from "../../lib/zine";
 import { ProseType } from "../../lib/prose";
@@ -23,7 +24,7 @@ const FicsOnly: NextPage = () => {
   };
 
   return !showingItem ? (
-    <div className={listStyles.listContainer}>
+    <div className={listStyles.listContainer + " " + utility.borderThickTop}>
       <h2>Fics:</h2>
       {zineList.map((item, idx) =>
         item.type == ZineItemType.Prose ? (

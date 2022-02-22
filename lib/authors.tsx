@@ -21,7 +21,7 @@ export const au_ruler: AuthorType = {
 export const Cavalierious: AuthorType = {
   name: "Cavalierious",
   twitter: "https://twitter.com/_Cavalierious_",
-  ao3: "https://archiveofourown.org/users/Cavalierious/pseuds/Cavalierious"
+  ao3: "https://archiveofourown.org/users/Cavalierious/pseuds/Cavalierious",
 };
 
 export const coldsobashouto: AuthorType = {
@@ -39,13 +39,13 @@ export const kayloyal: AuthorType = {
 export const Dev: AuthorType = {
   name: "Dev",
   twitter: "https://twitter.com/lxporidae",
-  tumblr: "https://lxporidae.tumblr.com/"
+  tumblr: "https://lxporidae.tumblr.com/",
 };
 
 export const StardustCrow: AuthorType = {
   name: "StardustCrow",
   twitter: "https://twitter.com/nocturnesamurai",
-  instagram: "https://www.instagram.com/stardustcrow/"
+  instagram: "https://www.instagram.com/stardustcrow/",
 };
 
 export const Sunflowersailor: AuthorType = {
@@ -62,25 +62,25 @@ export const tyytyy: AuthorType = {
 export const Vic: AuthorType = {
   name: "Vic",
   twitter: "https://twitter.com/babybluebells",
-  ao3: "https://archiveofourown.org/users/babybluebells/pseuds/babybluebells"
+  ao3: "https://archiveofourown.org/users/babybluebells/pseuds/babybluebells",
 };
 
 export const Mingyss: AuthorType = {
   name: "Mingyss",
   twitter: "https://twitter.com/minmingyss",
   tumblr: "https://mingyss.tumblr.com/",
-  instagram: "https://www.instagram.com/frecklednerdmingyss/"
+  instagram: "https://www.instagram.com/frecklednerdmingyss/",
 };
 export const Auritry: AuthorType = {
   name: "Auritry",
   twitter: "https://twitter.com/girgitii",
 };
 export const Bignewts: AuthorType = {
-  name: "amuk",
+  name: "BigNewts",
   twitter: "https://twitter.com/bignewts",
   instagram: "https://www.instagram.com/bignewts/",
 };
-const bubunji: AuthorType = {
+export const bubunji: AuthorType = {
   name: "bubun.ji",
   twitter: "https://twitter.com/bubun_ji",
   instagram: "https://www.instagram.com/bubun.ji/",
@@ -89,7 +89,7 @@ export const Cheshire: AuthorType = {
   name: "Cheshire",
   instagram: "https://www.instagram.com/r59k6/",
   twitter: "https://twitter.com/r59k6",
-  tumblr: "https://r59k6.tumblr.com/"
+  tumblr: "https://r59k6.tumblr.com/",
 };
 export const Congercine: AuthorType = {
   name: "Congercine",
@@ -100,14 +100,13 @@ export const Fruichus: AuthorType = {
   name: "Fruichus",
   tumblr: "https://fruichus.tumblr.com/",
   instagram: "https://www.instagram.com/fruichus/",
-  twitter: "https://twitter.com/fruichus"
-
+  twitter: "https://twitter.com/fruichus",
 };
 export const Hyourin7372: AuthorType = {
   name: "Hyourin7372",
   twitter: "https://twitter.com/Hyourin7372",
 };
-export const krayonela : AuthorType = {
+export const krayonela: AuthorType = {
   name: "krayonela ",
   twitter: "https://twitter.com/krynl_",
   instagram: "https://www.instagram.com/krayonela/",
@@ -146,12 +145,12 @@ export const pixelflowerss: AuthorType = {
 };
 export const Ridasu: AuthorType = {
   name: "Ridasu",
-tumblr: "https://floofities.tumblr.com/",
-twitter: "https://twitter.com/floofities",
+  tumblr: "https://floofities.tumblr.com/",
+  twitter: "https://twitter.com/floofities",
 };
-  export const SketchyPixel: AuthorType = {
-    name: "Sketchy Pixel",
-    instagram: "https://www.instagram.com/sketchy.pixel/",
-    tumblr: "https://sketchypixel.tumblr.com/",
-    twitter: "https://twitter.com/Sketchy__Pixel"
+export const SketchyPixel: AuthorType = {
+  name: "Sketchy Pixel",
+  instagram: "https://www.instagram.com/sketchy.pixel/",
+  tumblr: "https://sketchypixel.tumblr.com/",
+  twitter: "https://twitter.com/Sketchy__Pixel",
 };

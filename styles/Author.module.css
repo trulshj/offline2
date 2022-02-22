@@ -25,3 +25,9 @@
 .collab {
   font-size: x-large;
 }
+
+@media (max-width: 800px) {
+  .container {
+    margin-bottom: 1rem;
+  }
+}

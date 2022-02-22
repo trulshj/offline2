@@ -1,35 +1,23 @@
-import backCover from "../public/Adam in Love Back Cover lillachan-1.png";
-import frontCover from "../public/Adam in Love Cover lillachan-1.png";
-import badCollab from "../public/Adam_in_love_collab_bad-1.png";
-import luDoscopeArt from "../public/Adam_in_Love_Fantasy_AU_Lu.doscope_-1.png";
-import kamedoriCollab from "../public/Adam_in_love_kame-dori_collab_shadow_tada_ai-1.png";
-import kameDoriSpread from "../public/kamedori-spread.png";
-import emailFic from "../public/Illustration (3).png";
-import mirageprinceCollab from "../public/AdaminLove_EDENSnake_MiragePrince-1.png";
-import tyulezhikArt from "../public/adaminlove_tadaai_tyulezhik-1.png";
-import burnsArt from "../public/AIL-ADAREKI-BURNS-1.png";
-import burnsCollab from "../public/AIL-ADAREKI-BURNS-COLLAB-1.png";
-import badArt from "../public/BAD_BAD_TIME_adam_in_love-1.png";
-import crumbsArt from "../public/CRUMBS_AIL_LoveBlossom-1.png";
-import elianthosArt from "../public/Elianthos_TadaAi art1_AiL zine-1.png";
-import elianthoscollab from "../public/Elianthos_TadaAi art2_collab w Queenie_AiL zine-1.png";
-import grandtacoArt from "../public/ADAM_IN_LOVE-Dk JOE_CHERRY_ADAM_GRANDTACOSUPREM-1.png";
-import lizardCollab from "../public/Lu.doscope__That_lizard_Collab_.png";
-import krynnea1 from "../public/Krynnea1.png";
-import krynnea2 from "../public/Krynnea2.png";
 import {
+  Auritry,
   AuthorType,
-  bad,
-  burns,
-  crumbs,
-  elianthos,
-  grandTaco,
-  kamedori,
-  krynnea,
+  Bignewts,
+  bubunji,
+  Cheshire,
+  Congercine,
+  Fruichus,
+  Hyourin7372,
+  krayonela,
+  Lenny,
+  lex_catto,
   lillachan,
-  ludoscope,
-  miragePrince,
-  tyulezhik,
+  Mingyss,
+  Momo,
+  neaekis,
+  pixelflowerss,
+  Ridasu,
+  SketchyPixel,
+  Theo,
 } from "./authors";
 
 export interface ArtType {
@@ -38,105 +26,120 @@ export interface ArtType {
   image: StaticImageData;
 }
 
+import auritryArt from "../public/art/Auritry_Final.png";
+import biyaBubunArt from "../public/art/biya-bubun.ji.png";
+import cheshireArt from "../public/art/Cheshire_Final-1.png";
+import krayonelaCollabArt from "../public/art/Collab_Dev_krayonela_Final-1.png";
+import congercineArt from "../public/art/CongercineFinal-1.png";
+import fruichusArt from "../public/art/Fruichus_final.png";
+import hyourinArt from "../public/art/Hyourin7372_Final-1.png";
+import krayonelaArt from "../public/art/krayonela-1.png";
+import lennyArt from "../public/art/lennymiyacupcakes.png";
+import lexCattoArt from "../public/art/lex_catto_Final.png";
+import lillachanArt from "../public/art/lillachan-1.png";
+import minmingyssArt from "../public/art/Minmingyss_Final.png";
+import bignewtsArt from "../public/art/miya_zine_bignewts.png";
+import momoArt from "../public/art/Momo_Final-1.png";
+import naekisArt from "../public/art/neaekis_Final.png";
+import pixelflowerssArt from "../public/art/Pixelflowerss_final.png";
+import ridasuArt from "../public/art/Ridasu_Final-1.png";
+import sketchyPixelArt from "../public/art/SketchyPixel.png";
+import theoArt from "../public/art/Theo_Final-1.png";
+
 export const artList: ArtType[] = [
   {
     id: 0,
-    author: lillachan,
-    image: frontCover,
+    author: Auritry,
+    image: auritryArt,
   },
   {
     id: 1,
-    author: bad, // collab
-    image: badCollab,
+    author: Bignewts,
+    image: bignewtsArt,
   },
   {
     id: 2,
-    author: ludoscope,
-    image: luDoscopeArt,
+    author: bubunji,
+    image: biyaBubunArt,
   },
   {
     id: 3,
-    author: kamedori, // collab
-    image: kamedoriCollab,
+    author: Cheshire,
+    image: cheshireArt,
   },
   {
     id: 4,
-    author: kamedori,
-    image: kameDoriSpread,
+    author: Congercine,
+    image: congercineArt,
   },
   {
     id: 5,
-    author: kamedori,
-    image: kameDoriSpread,
+    author: Fruichus,
+    image: fruichusArt,
   },
   {
     id: 6,
-    author: tyulezhik, // collab
-    image: emailFic,
+    author: Hyourin7372,
+    image: hyourinArt,
   },
   {
     id: 7,
-    author: grandTaco,
-    image: grandtacoArt,
+    author: krayonela,
+    image: krayonelaArt,
   },
   {
     id: 8,
-    author: miragePrince,
-    image: mirageprinceCollab,
+    author: krayonela,
+    image: krayonelaCollabArt,
   },
   {
     id: 9,
-    author: tyulezhik,
-    image: tyulezhikArt,
+    author: Lenny,
+    image: lennyArt,
   },
   {
     id: 10,
-    author: burns, // collab
-    image: burnsCollab,
+    author: lex_catto,
+    image: lexCattoArt,
   },
   {
     id: 11,
-    author: burns,
-    image: burnsArt,
+    author: lillachan,
+    image: lillachanArt,
   },
   {
     id: 12,
-    author: bad,
-    image: badArt,
+    author: Theo,
+    image: theoArt,
   },
   {
     id: 13,
-    author: crumbs,
-    image: crumbsArt,
+    author: Momo,
+    image: momoArt,
   },
   {
     id: 14,
-    author: elianthos,
-    image: elianthosArt,
+    author: neaekis,
+    image: naekisArt,
   },
   {
     id: 15,
-    author: elianthos, // collab
-    image: elianthoscollab,
+    author: pixelflowerss,
+    image: pixelflowerssArt,
   },
   {
     id: 16,
-    author: krynnea,
-    image: krynnea1,
+    author: Ridasu,
+    image: ridasuArt,
   },
   {
     id: 17,
-    author: krynnea,
-    image: krynnea2,
+    author: SketchyPixel,
+    image: sketchyPixelArt,
   },
   {
     id: 18,
-    author: ludoscope, // collab
-    image: lizardCollab,
-  },
-  {
-    id: 19,
-    author: lillachan,
-    image: backCover,
+    author: Mingyss,
+    image: minmingyssArt,
   },
 ];

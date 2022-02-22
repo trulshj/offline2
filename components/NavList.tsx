@@ -2,6 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import NumberButton from "./NumberButton";
 import styles from "../styles/NavList.module.css";
+import utility from "../styles/Utility.module.css";
 
 export interface buttonType {
   href: string;
@@ -32,12 +33,12 @@ export default function NavList() {
         </Link>
       ))}
       <button
-        className={`${styles.menuButton} ${
+        className={`${styles.menuButton} ${utility.textShadow} ${
           showMenu ? styles.activeButton : styles.inactiveButton
         }`}
         onClick={() => setShowMenu(!showMenu)}
       >
-        Menu
+        MENU
       </button>
     </nav>
   );

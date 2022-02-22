@@ -14,18 +14,13 @@
   left: 0;
   right: 0;
   margin: auto;
-  border: none;
+  border: 4px solid var(--border-color);
   font-size: 1.2rem;
-  border-radius: 1rem;
   padding: 0.5rem;
   display: none;
-  background-color: var(--primary);
-  color: var(--text-color);
-}
-
-.menuButton:hover,
-.menuButton:focus-visible {
-  background-color: var(--accent);
+  background-color: var(--bg-color);
+  color: var(--text-bright);
+  font-family: var(--orbitron-font);
 }
 
 @media (max-width: 800px) {
@@ -40,8 +35,9 @@
   }
 
   .inactiveMenu {
-    transform: translateY(-500px);
+    transform: translateY(-492px);
     height: 0px;
+    gap: 1rem;
   }
 
   .inactiveMenu > a {
@@ -51,7 +47,6 @@
   .navList {
     width: min-content;
     margin: auto;
-    gap: 1rem;
   }
 
   .menuButton {

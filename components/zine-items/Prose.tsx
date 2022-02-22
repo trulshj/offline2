@@ -5,6 +5,7 @@ import { ProseType } from "../../lib/prose";
 import Author from "../Author";
 
 import { useEffect, useRef } from "react";
+import ArtItem from "./Art";
 
 export interface ProseItemProps {
   prose: ProseType;
@@ -38,6 +39,12 @@ export default function ProseItem({ prose }: ProseItemProps) {
             dangerouslySetInnerHTML={{ __html: paragraph.trim() }}
           ></p>
         ))}
+        {!prose.collabArt ? null : (
+          <div className={styles.collabArt}>
+            <Author author={prose.collabArt.author} collabArt={true} />
+            <ArtItem art={prose.collabArt} />
+          </div>
+        )}
       </div>
     </div>
   );

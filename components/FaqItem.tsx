@@ -13,7 +13,7 @@ export const faqs: FaqItemProps[] = [
   },
   {
     question: "How will contributors be compensated?",
-    answer: `The website will be completely free to view online, so no physical or monetary compensation is involved.<br />
+    answer: `The website will be completely free to view online, so no physical or monetary compensation is involved.<br/>
     However, contributors will receive an exclusive digital PDF copy of the zine at the end of the project. If they wish to produce physical copies of the zine themselves, the mod team will send printer-friendly versions alongside the digital PDF.`,
   },
   {
@@ -27,7 +27,7 @@ export const faqs: FaqItemProps[] = [
   },
   {
     question: "Will there be solo Adam conent?",
-    answer: `The webzine will consist of ship content only to feature as many Adam ships as possible, focusing on romantic love and other types of love.<br />
+    answer: `The webzine will consist of ship content only to feature as many Adam ships as possible, focusing on romantic love and other types of love.<br/>
             However, if you are interested in more gen content for Adam, our team is also organizing <a href='https://www.adamflourishzine.com/' target='_blank' rel='noreferrer'>Flourish</a>, an upcoming post-canon Adam zine for charity! You can follow our Twitter for the latest updates <a href='https://twitter.com/adamsk8flourish' target='_blank' rel='noreferrer'>here</a>!`,
   },
 ];

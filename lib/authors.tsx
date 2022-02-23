@@ -154,3 +154,10 @@ export const SketchyPixel: AuthorType = {
   tumblr: "https://sketchypixel.tumblr.com/",
   twitter: "https://twitter.com/Sketchy__Pixel",
 };
+
+export const wishMoon: AuthorType = {
+  name: "WishMoon",
+  twitter: "https://twitter.com/wishmoonlion",
+  ao3: "https://archiveofourown.org/users/A_Wish_On_the_Moon/pseuds/WishMoon",
+  tumblr: "https://wishmoonlion.tumblr.com/",
+};

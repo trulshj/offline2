@@ -11,6 +11,7 @@ import {
   Sunflowersailor,
   tyytyy,
   Vic,
+  wishMoon,
 } from "./authors";
 
 export interface ProseType {
@@ -1284,6 +1285,67 @@ This time, Miya doesn’t resist the urge to kick him in the shin.<br/>
 
 <strong>reki!!</strong> @krsk8 • 2s
 <br><br><em>there is no love in this house.</em>
+`.split("<br/>"),
+  },
+  {
+    id: 10,
+    title: "should we run, should we stay? (i guess, i think, i'll be okay)",
+    author: wishMoon,
+    paragraphs: `<center>⭑⁕⭑</center><br/>
+“Wh-ouch! <em>Watch</em> it!”<br/>
+Maybe it’s your fault, for not looking where you’re going, or maybe it’s because you’re too busy frowning at your phone to pay attention to the world outside of your adventure games, but when you bump into the guy in front of you, you nearly fall onto your back. It’s sheer luck and the fact you’ve been skating so long that you don’t hit the ground <em>too hard</em>. <br/>
+Quick on your feet as you are, it still takes you a few seconds to get your bearings.<br/>
+It’s just your luck that, when the random NPC turns around to apologize, a hand scratching at the back of his bright red hair while the other offers you a hand up, you realize you <em>know</em> him.<br/>
+His smile is tentative, sheepish, when you squawk out a surprised, “Slime?”<br/>
+And, Reki, stupid, terrible, kind-hearted idiot that he is, exclaims, “Oh! Miya!” As if he <em>hadn’t</em> just been standing in the way of everyone and everything like a grindable enemy encounter. <br/>
+You scowl at the proffered fingers. You haven’t forgiven him that easily, after all. Friendship takes time to rank up, before it drops again, and… he knows that, right?<br/>
+Before you can open your mouth to say as much, however, he decides not to give you the choice, instead grabbing you by the wrist with both hands and <em>yanking</em>.<br/>
+Reki almost shoves your face into his chest as he steadies you, and you hate the fact that you’re so light that he misjudged his own strength. Something biting bubbles up from the back of your throat, but your vision’s full of his ugly sweatshirt and everything’s warm and muffled and you’re way too out of sorts to bother.<br/>
+And then there’s an arm around your shoulders, a big, open grin on the guy’s face. And you’re trying to wriggle out of his hold, <em>really</em> you are, but. You can’t really help the way your fingers curl and snag at the hem of his clothes. Like claws afraid to let go, because you don’t really want to.<br/>
+When you notice, you immediately pry them off. Huff, when he gives you a chance to breathe without bearing down over you, words easy as he asks how you’re doing, where you’ve been.<br/> 
+You ignore him and poke your head out from under his arms to spot the other person Reki was with. Because, apparently, that embarrassing display couldn’t be just in front of the public but, also, in front of people Reki <em>knows</em>.<br/> 
+Behind the both of you, a girl with bright eyes and brown hair tied up into pigtails stops staring at her phone long enough to glance over. She takes out the lollipop in her mouth and waves with the hand not holding her mobile, smile easy, before turning back when the the loud <em>ding</em> of a notification sounds.<br/>
+You stare, then turn to glare at Reki, a question you don’t quite know how to ask left to sit in the silence.<br/>
+… Maybe, you think, after he gives you their quest notes, you shouldn’t have questioned it, to begin with.<br/>
+<center>⭑⁕⭑</center><br/>
+<center>Turns out, this trip’s not going to be a solo dungeon crawl, after all.</center><br/>
+<center>(The train ride would’ve been awkward enough, even <em>without</em> the Kyan siblings joining you.)</center><br/>
+<center>⭑⁕⭑</center><br/>
+After the three of you hop off the Yakena Bus Terminal at Yogi, it quickly becomes apparent that, no, Reki’s sister, Koyomi, <em>isn’t</em> going to serve as a buffer.<br/>
+“Alright, you two,” she insists, “go do whatever uncool things you’re up to.”<br/>
+You cover the snort that slips past your lips as Reki stumbles back, arms flailing, before he catches his balance. “You sure?”<br/>
+Reki’s sister, eager to get a photo with a singer who calls herself ‘Swallow’, tosses a wave and a shooing motion behind her. If you’d been paying attention, maybe you would have made a mean comment about her not having as stupid a face as her brother, or maybe you would’ve dug a jab in about even his family not wanting to stick around.<br/>
+Maybe you would have meant it, in the way that you really wouldn’t, but. You’re not really listening to the exchange, as your eyes skim over the rows upon rows of game cartridges stacked across the shelves. <br/>
+Here’s the thing. Manga Souko’s big enough that you can pick any direction to head into and simply <em>disappear between the aisles. Big enough that you can climb onto your board and just… skate <em>away. Because this is just a side quest, and an adventuring party can be as small as two, and you’re not the kind of guy who can support useless slimes who can’t even face their friends.<br/>
+Except… except you’re not as strong as you think, and Reki’s not as bad as you want to believe, and maybe you’d missed this, missed <em>him</em>, those weeks he’d left you and CHERRY and JOE and <em>Langa</em> behind.<br/>
+Because though you grumble and scowl, eyes focused on the handheld game between your thumbs, Reki still follows you with his hands behind his head, relaxed, happy, and carefree. And it hurts, just a little, that the others were right. That Reki would come back, because he did, even though you’d thought… <br/>
+Well. you already know what the others were like, so why should Reki have been any different?<br/>
+<center>⭑⁕⭑</center><br/>
+<center>In the end, it was your fault people leave, right?</center><br/>
+<center>(No matter how much you wish it wasn’t.)</center><br/>
+<center>⭑⁕⭑</center><br/>
+“Why?” you whisper, before you can stop yourself.<br/>
+“Huh?”<br/>
+“Idiot,” you mumble. Then, louder, without turning around: “Why’d you come <em>back</em>?”<br/>
+Reki pauses, quiet. You hear the shift of his clothes, the way he almost fidgets. Hear him say, “I wonder,” in that tone of voice that means he doesn’t know how to answer. Hear him breathe out a sigh, and admit, “Don’t know,” in the way that means he does, actually.<br/>
+Out of the corner of your eye, you can see the content smile tugging at the corners of his lips and pulling at the stiff white bandage on his jaw. He’s not looking at you, but at something on the ground, or maybe not there, at all, so very sad, so very fond.<br/>
+It makes something angry and bitter and full of claws inside of you settle. And maybe he’s not as brave as a hero, and maybe you’re not as strong as you pretend, but. In the end, maybe it’s just the fact that he’s not so easy to kill, and not so impossible to teach, that makes you think:<br/>
+“For a dog, you’re pretty loyal, right?”<br/>
+You duck your head when Reki grins, ruffling the neat coif of your hair into something unmanageable. “Come on! I thought I got <em>upgraded</em> from slime,” he laughs, before he’s slinging an arm around your shoulders and trying to pull your quiet smile into something bigger, something wider. “Don’t think a dog’s any better, Miya!”<br/>
+And you can’t help the giggles, as his hands pinch at your sides, or the sharp breaths of air that sound like you’re dying (again), as you wonder if this is what it feels like to be (truly) acknowledged, or the way your fingers wrap around the span of his arm and <em>dig</em>, as if to mark your place.<br/>
+Your friend. Your brother. For better or for worse, though you share no blood between you, or SHADOW, or any of the others. Because, see, here’s what you couldn’t admit, at first: that ADAM was helpful, but unkind; that SHADOW is cocky, but he doesn’t get loneliness; that CHERRY and JOE are smart and strong, but they’re more comfortable in their own skins, and they’d never said anything about the ones they’d lost <em>to</em>.<br/>
+That Langa is amazing, but he and you are the same, and it’s never <em>yourself</em> that you were worried about.<br/>
+A particularly well-placed elbow to his stomach, and Reki lets you go. At least for now, at least long enough for you to catch your breath. The box covers the both of you knocked over are scattered across the floor, but you’re not really looking at them when you bend down to pick up your board, and turn around to catch Reki’s eyes.<br/>
+He’s like the sun, wild and untamed. Unchanged, though the rain had poured in Okinawa, and left you bereft of that passion, that comfort, you hadn’t felt before you’d met him. That curdling in your stomach that wasn’t so much rage and resentment as it was the realization that it’d been a long time, since you’d experienced this.<br/>
+“But, you stayed, didn’t you?” you tell him, because Reki had. “You stood up for me, and then you ran away. And I didn’t want to forgive you, but….”<br/>
+“Sorry,” Reki offers. “I guess I lost myself.” A pause. “But, listen. I’m back now. So —”<br/>
+And, you can’t help it. It’s not a demand, except it is, when you ask, “— So you’re not allowed to leave, again. Okay?”<br/>
+It shouldn’t be as relieving as it is when Reki nods, a fist he usually only ever gives Langa coming up to bump against your own, and promises:<br/>
+“Yeah. Yeah, I’m not going anywhere.”<br/>
+<center>⭑⁕⭑</center><br/>
+<center>Because a party isn’t whole if one of the main characters disappears.</center><br/>
+<center>(Or, maybe, because you still want to get used to what it’s like, when your friends don’t leave you behind.)</center><br/>
+<center>⭑⁕⭑</center><br/>
 `.split("<br/>"),
   },
 ];

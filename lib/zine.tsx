@@ -45,6 +45,7 @@ export const zineList: ZineItem[] = [
   artZineItems[13], // momo (art)
   proseZineItems[8], // tyytyy (fic)
   artZineItems[15], // pixelflowers (art)
+  proseZineItems[10], // wishmoon (fic)
   artZineItems[16], // ridasu (art)
   proseZineItems[9], // vic (fic)
   artZineItems[7], // krayonrela (art)

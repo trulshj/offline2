@@ -12,6 +12,7 @@
 }
 
 .textShadow {
+  color: var(--text-bright);
   transition: text-shadow 100ms ease-in-out;
 }
 

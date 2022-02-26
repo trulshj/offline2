@@ -11,6 +11,7 @@ export default function ArtItem({ art }: ArtProps) {
   return (
     <div className={styles.imageContainer}>
       <Image
+        onContextMenu={(e) => e.preventDefault()}
         className={styles.art}
         src={art.image}
         alt={`Art by ${art.author.name} is loading in`}

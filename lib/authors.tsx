@@ -107,7 +107,7 @@ export const Hyourin7372: AuthorType = {
   twitter: "https://twitter.com/Hyourin7372",
 };
 export const krayonela: AuthorType = {
-  name: "krayonela ",
+  name: "krayonela",
   twitter: "https://twitter.com/krynl_",
   instagram: "https://www.instagram.com/krayonela/",
 };
@@ -160,4 +160,28 @@ export const wishMoon: AuthorType = {
   twitter: "https://twitter.com/wishmoonlion",
   ao3: "https://archiveofourown.org/users/A_Wish_On_the_Moon/pseuds/WishMoon",
   tumblr: "https://wishmoonlion.tumblr.com/",
+};
+
+/*
+  Merch Authors
+*/
+
+export const fish: AuthorType = {
+  name: "Fish",
+};
+
+export const futaroni: AuthorType = {
+  name: "futaroni",
+};
+
+export const kiki: AuthorType = {
+  name: "Kiki",
+};
+
+export const miiboChanh: AuthorType = {
+  name: "MiiboChanh",
+};
+
+export const studioPaigy: AuthorType = {
+  name: "StudioPaigy",
 };

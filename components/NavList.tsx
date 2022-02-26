@@ -17,6 +17,7 @@ export default function NavList() {
     { href: "/", text: "HOME" },
     { href: "/about", text: "ABOUT" },
     { href: "/zine", text: "ZINE" },
+    { href: "/merch", text: "MERCH" },
   ];
 
   return (

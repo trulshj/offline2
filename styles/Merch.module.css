@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.wide {
+  width: 100%;
+  max-width: 900px;
+  height: 70vh;
+}
+
+.container > h1 {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .container {
+    overflow-y: scroll;
+  }
+}

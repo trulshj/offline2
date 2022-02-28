@@ -37,14 +37,14 @@ export const merchList: MerchType[] = [
     resource: "../merch/Emotes-auritry.zip",
     thumbnail: auritryThumbnail,
     type: "Emotes",
-    released: false,
+    released: true,
   },
   {
     author: krayonela,
     resource: "../merch/Emotes-krayonela.zip",
     thumbnail: krayonelaThumbnail,
     type: "Emotes",
-    released: false,
+    released: true,
   },
   {
     author: Congercine,
@@ -58,7 +58,7 @@ export const merchList: MerchType[] = [
     resource: "../merch/fish_final.png",
     thumbnail: fishThumbnail,
     type: "Note template",
-    released: false,
+    released: true,
   },
   {
     author: Fruichus,
@@ -72,7 +72,7 @@ export const merchList: MerchType[] = [
     resource: "../merch/futaroni_icon_final.png",
     thumbnail: futaroniThumbnail,
     type: "Icon",
-    released: false,
+    released: true,
   },
   {
     author: kiki,
@@ -100,6 +100,6 @@ export const merchList: MerchType[] = [
     resource: "../merch/StudioPaigy_Stickersheet_ART.png",
     thumbnail: studioPaigyThumbnail,
     type: "Digital stickersheet",
-    released: false,
+    released: true,
   },
 ];

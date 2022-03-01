@@ -113,7 +113,7 @@ export const krayonela: AuthorType = {
 };
 export const Lenny: AuthorType = {
   name: "Lenny",
-  instagram: "https://www.instagram.com/meikiran/",
+  instagram: "https://www.instagram.com/lennyafterhours/",
 };
 export const lex_catto: AuthorType = {
   name: "lex_catto",

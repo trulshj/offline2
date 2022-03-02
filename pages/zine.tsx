@@ -23,6 +23,11 @@ const ZineNav: NextPage = () => {
             </a>
           </Link>
         ))}
+        <a href={"/oflinepdf.pdf"} download>
+          <NumberButton>
+            <i className="fa fa-download"></i> DOWNLOAD THE ZINE
+          </NumberButton>
+        </a>
       </div>
     </div>
   );
